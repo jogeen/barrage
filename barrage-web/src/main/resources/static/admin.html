@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 上传图片框样式，不使用上传组件可以删除此样式 -->
+    <style>
+        .avatar-uploader .el-upload {
+            border: 1px dashed #d9d9d9;
+            border-radius: 6px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        .avatar-uploader .el-upload:hover {
+            border-color: #409EFF;
+        }
+        .avatar-uploader-icon {
+            font-size: 28px;
+            color: #8c939d;
+            width: 150px;
+            height: 70px;
+            line-height: 150px;
+            text-align: center;
+        }
+        .avatar {
+            width: 150px;
+            height: 70px;
+            display: block;
+        }
+
+    </style>
+    <script src="js/vue.js"></script>
+    <script src="js/axios.js"></script>
+    <script src="js/elementui.js"></script>
+</head>
+<body class="hold-transition">
+<div id="app">
+
+    <div class="content-header">
+        <h1>弹幕管理</h1>
+    </div>
+
+    <div class="app-container">
+        <div class="box">
+            <el-form ref="form" :model="form" label-width="180px" size="medium">
+
+                <el-form-item label="连接主播电脑">
+                    主机IP:<el-input type="text" v-model="form.ip"></el-input>
+                    端口Port：<el-input type="text" v-model="form.port"></el-input>
+                    组号：<el-input type="text" v-model="form.groupid"></el-input>
+                    <el-button type="primary" @click="conn()">连接</el-button><el-button type="primary" @click="test()">测试弹幕</el-button>
+                </el-form-item>
+
+            </el-form>
+
+            <el-form ref="rechargeForm" :model="rechargeForm" label-width="180px" size="medium" label="充值金币">
+                <el-form-item label="用户充值">
+                    电话号码:<el-input type="text" v-model="rechargeForm.phone"></el-input>
+                    金币数：<el-input type="text" v-model="rechargeForm.value"></el-input>
+                    <el-button type="primary" @click="recharge()">充值</el-button>
+                </el-form-item>
+            </el-form>
+        </div>
+    </div>
+
+
+</div>
+</body>
+
+<script>
+     var app=new Vue({
+        el: '#app',
+        data:{
+            form: {
+                ip:'127.0.0.1',
+                port: 5233,
+                groupid:1
+
+            },
+            rechargeForm: {
+                phone:'',
+                value: 100
+            }
+        },
+
+        methods:{
+            conn:function() {
+                axios.get("/admin/conn/"+app.form.ip+"/"+app.form.port+"/"+app.form.groupid).then(function (response) {
+                    app.$notify({
+                        title: '成功',
+                        message: response.data,
+                        type: 'success'
+                    });
+                });
+            },
+            test:function() {
+                axios.get("/admin/test").then(function (response) {
+                    app.$notify({
+                        title: '成功',
+                        message: response.data,
+                        type: 'success'
+                    });
+                });
+            },
+            recharge:function() {
+                axios.post("/admin/recharge",app.rechargeForm).then(function (response) {
+                    app.$notify({
+                        title: '成功',
+                        message: response.data,
+                        type: 'success'
+                    });
+                });
+            }
+        }
+
+    })
+</script>
+</html>

@@ -6,7 +6,7 @@ import tk.mybatis.mapper.common.Mapper;
 
 public interface UserMapper extends Mapper<User> {
 
-    @Select("select * from user where phone=#{phone}")
+    @Select("select * from tb_user where phone=#{phone}")
     public User getUserByPhone(String phone);
 
 }

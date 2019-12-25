@@ -46,13 +46,6 @@ public class UserController {
         return null;
     }
 
-
-
-
-
-
-
-
     private void setUserToSession(User user) {
         httpServletRequest.getSession().setAttribute("user", new Gson().toJson(user));
     }

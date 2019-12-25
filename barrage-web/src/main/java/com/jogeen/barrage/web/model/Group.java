@@ -2,12 +2,14 @@ package com.jogeen.barrage.web.model;
 
 import lombok.Data;
 
+import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 @Data
 @Table(name = "tb_group")
-public class Group {
+public class Group implements Serializable{
     /**
      * id
      */
@@ -24,11 +26,7 @@ public class Group {
      */
     private String leader;
 
-    /**
-     * num
-     */
-    private Integer num;
 
-    private Long value;
+    private Long score;
 
 }

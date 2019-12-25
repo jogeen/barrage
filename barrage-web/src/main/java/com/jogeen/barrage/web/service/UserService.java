@@ -15,7 +15,7 @@ public class UserService {
         userMapper.insert(user);
     }
 
-    public User getUserByPhone(String username) {
-        return userMapper.getUserByPhone(username);
+    public User getUserByPhone(String phone) {
+        return userMapper.getUserByPhone(phone);
     }
 }

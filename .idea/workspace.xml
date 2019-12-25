@@ -2,94 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debc0479-ca4e-4eda-a160-2935613fe7f4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-core/barrage-core.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-core/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/barrage-web.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/Application.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/config/Status.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/AdminController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/GroupMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/UserMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/Group.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/GiftRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/MessageRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/GroupService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/barrage.iml" afterPath="$PROJECT_DIR$/barrage-anchor/barrage-anchor.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/BarrageClient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/ClientMain.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/config/ClientConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/data/ClientDataCenter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/frame/ClientFrame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/mina/ClientHandler.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/mina/ProtocolClient.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ProtocolClient.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/common/GiftEnum.java" afterPath="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/common/Message.java" afterPath="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/Message.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/common/MessageDict.java" afterPath="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/MessageDict.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/common/MessageFactory.java" afterPath="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/MessageFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/common/MessageVersion.java" afterPath="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/MessageVersion.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/BarrageServer.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/BarrageServer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/ServerMain.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/ServerMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/config/ServerConfig.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/config/ServerConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/data/GiftImage.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/GiftImage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/data/ServerDataCenter.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/ServerDataCenter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/frame/BarrageFrame.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/frame/BarrageFrame.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/mina/ProtocolServer.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/mina/ProtocolServer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/mina/ServerHandler.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/mina/ServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/model/BaseBarrage.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/model/BaseBarrage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/model/GiftBarrage.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/model/GiftBarrage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogeen/barrage/server/model/TextBarrage.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/model/TextBarrage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/client_config.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/server_config.properties" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/config/server_config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/main.png" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/main.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/rocket.png" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/rocket.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/image/rose.png" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/rose.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BuildSql.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/bus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/electric.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/fighter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/jet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/train.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/truck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/ufo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/filter/SessionFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/RechangeRequest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/vo/GroupVo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/admin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/AdminLTE.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/element-ui-index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/elementui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/fonts/element-icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/login_style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/quill.bubble.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/quill.core.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/quill.snow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/css/theme-chalk.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/boxed-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/boxed-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/brand11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/brand2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/brand8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/code.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/icon1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/icon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/icon3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/imagesBg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/imagesBg2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/loginbox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/logingBg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/loginlogo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/lsf.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/pwd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/step.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/stepN.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/user2-160x160.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/visa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/base.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/data.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/echarts.common.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/elementui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/js/vue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/AUTHORS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/dist/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/dist/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/dist/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/dist/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/dist/jquery.slim.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/dist/jquery.slim.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/dist/jquery.slim.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/external/sizzle/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/external/sizzle/dist/sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/jsonp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/load.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/parseJSON.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/parseXML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/var/location.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/ajax/xhr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/attributes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/attributes/attr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/attributes/classes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/attributes/prop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/attributes/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/attributes/val.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/callbacks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/DOMEval.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/access.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/nodeName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/parseHTML.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/ready-no-deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/ready.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/readyException.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/stripAndCollapse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/adjustCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/curCSS.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/defaultDisplay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/showHide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/var/getStyles.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/var/isHidden.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/var/isHiddenWithinTree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/var/rmargin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/css/var/swap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/data/Data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/data/var/acceptData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/data/var/dataPriv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/data/var/dataUser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/deferred.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/deferred/exceptionHook.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/deprecated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/dimensions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/effects.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/effects/Tween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/event.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/event/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/event/alias.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/event/focusin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/event/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/event/trigger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/exports/amd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/exports/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/intro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/buildFragment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/getAll.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/setGlobalEval.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/var/rscriptType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/var/rtagName.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/manipulation/wrapMap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/offset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/outro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/queue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/queue/delay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/selector-native.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/selector-sizzle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/selector.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/serialize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/traversing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/traversing/findFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/traversing/var/dir.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/traversing/var/siblings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/ObjectFunctionString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/arr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/class2type.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/concat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/document.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/documentElement.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/fnToString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/getProto.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/hasOwn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/indexOf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/pnum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/push.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/rcssNum.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/rnothtmlwhite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/rnotwhite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/slice.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/var/toString.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/plugins/jquery/src/wrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/test.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/GiftImage.java" afterPath="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/GiftImage.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/main.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/rocket.png" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/static/img/minilogo.png" />
+      <change beforePath="$PROJECT_DIR$/barrage-anchor/src/main/resources/image/rose.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java" afterPath="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/Application.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/Application.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/AdminController.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/AdminController.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/UserController.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/UserMapper.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/UserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/Group.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/Group.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java" afterPath="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/barrage-web/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/barrage-web/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/barrage-core/target/" />
@@ -103,20 +218,141 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="GiftEnum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="115" column="47" lean-forward="true" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BarrageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="57" column="74" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding>
+                <element signature="e#2205#2206#0" expanded="true" />
+                <element signature="e#2309#2310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtocolClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ProtocolClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="73" column="18" lean-forward="false" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RechangeRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/RechangeRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GiftRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/GiftRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/MessageRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>setTrayIcon</find>
+      <find>loginb</find>
+      <find>loginBg</find>
+      <find>@click</find>
+      <find>@click=&quot;sendGift&quot;</find>
+      <find>getRoseImage</find>
+      <find>name</find>
+      <find>refresh</find>
+      <find>currentGroup</find>
+      <find>setIncrementHashValue</find>
+      <find>recharge</find>
     </findStrings>
+    <replaceStrings>
+      <replace>v-on:click</replace>
+      <replace>@click=&quot;form.type='rocket';sendGift()&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,24 +375,32 @@
         <option value="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/config/ServerConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java" />
         <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ProtocolClient.java" />
         <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/MessageRequest.java" />
         <option value="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/MessageFactory.java" />
         <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/GiftRequest.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/barrage-web/pom.xml" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/Application.java" />
         <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/GroupMapper.java" />
         <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/config/Status.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/Group.java" />
-        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java" />
         <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/GroupService.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/Application.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/filter/SessionFilter.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/resources/static/test.html" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/vo/GroupVo.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/resources/static/login.html" />
+        <option value="$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/GiftImage.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/Group.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/RechangeRequest.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/resources/static/admin.html" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java" />
+        <option value="$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java" />
       </list>
     </option>
   </component>
@@ -197,8 +441,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="774" />
-    <option name="y" value="111" />
+    <option name="x" value="163" />
+    <option name="y" value="204" />
     <option name="width" value="1232" />
     <option name="height" value="838" />
   </component>
@@ -222,7 +466,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,11 +473,224 @@
               <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
               <item name="barrage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-anchor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-anchor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-anchor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-anchor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-anchor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-anchor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-anchor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="mina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barrage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barrage" type="462c0819:PsiDirectoryNode" />
+              <item name="barrage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,11 +714,11 @@
       <recent name="com.jogeen.barrage.web.request" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\02java\barrage\barrage-web\src\main\resources\static" />
+      <recent name="D:\02java\barrage\barrage-anchor\src\main\resources\image" />
       <recent name="D:\02java\barrage\barrage-anchor\src\main\resources" />
       <recent name="D:\02java\barrage\barrage-core\src\main\resources" />
       <recent name="D:\02java\barrage\barrage-core\src\main\java\com\jogeen\barrage\common" />
-      <recent name="D:\02java\barrage\barrage-web\src\main\java\com\jogeen\barrage\web" />
-      <recent name="D:\02java\barrage\barrage-anchor\src\main\java\com\jogeen\barrage\server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -414,48 +870,83 @@
       <option name="presentableId" value="Default" />
       <updated>1577085972871</updated>
       <workItem from="1577085975917" duration="12451000" />
-      <workItem from="1577244066864" duration="112000" />
+      <workItem from="1577244066864" duration="19148000" />
+      <workItem from="1577282129745" duration="39000" />
+      <workItem from="1577283110478" duration="5303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12563000" />
+    <option name="totallyTimeSpent" value="36941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24302575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43148357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14967811" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39411098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14382786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4767837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46432617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14382786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14967811" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31030577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14382786" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4371461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -465,12 +956,32 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>new String(bytes)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Long.parseLong((String) redisTemplate.boundHashOps(&quot;group_value&quot;).get(&quot;&quot;+group.getId()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>redisTemplate.boundHashOps(&quot;group_value&quot;).get(&quot;&quot;+group.getId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>redisTemplate.boundHashOps(&quot;group_value&quot;).get(group.getId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>redisTemplate.boundValueOps(phone).get()</expression-string>
         <language-id>JAVA</language-id>
@@ -484,193 +995,87 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/server/model/GiftBarrage.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/server/config/ServerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/server/data/GiftImage.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/mina/ProtocolServer.java">
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/boxed-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/boxed-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/brand2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/brand11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/code.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/icon2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/icon3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/icons.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/loginbox.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/loginlogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/lsf.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/logingBg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/img/imagesBg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/css/login_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="1192" column="16" lean-forward="true" selection-start-line="1192" selection-start-column="16" selection-end-line="1192" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/model/BaseBarrage.java">
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/config/Status.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/model/TextBarrage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/BarrageServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/ClientMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jogeen/barrage/client/BarrageClient.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/data/GiftImage.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/ServerDataCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/data/ServerDataCenter.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/GiftImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/config/client_config.properties" />
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/config/server_config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/config/ServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-431">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/ServerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/frame/BarrageFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/ClientMain.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/BarrageClient.java" />
-    <entry file="jar://D:/repository_pinyougou/org/apache/mina/mina-core/2.0.16/mina-core-2.0.16-sources.jar!/org/apache/mina/core/session/IoSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="181" column="7" lean-forward="true" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/frame/ClientFrame.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/data/ClientDataCenter.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/config/ClientConfig.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/MessageDict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/mina/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request.java" />
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/MessageRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/GiftRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/MessageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository_pinyougou/org/springframework/data/spring-data-redis/2.1.6.RELEASE/spring-data-redis-2.1.6.RELEASE.jar!/org/springframework/data/redis/core/BoundValueOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="115">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -678,58 +1083,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java">
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="585">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
-          <folding>
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ProtocolClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="92">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/vo/GroupVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/rose.png" />
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/jet.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/fighter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/bicycle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/model/GiftBarrage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/yacht.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/main.png" />
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/rocket.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/GiftImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/frame/BarrageFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/resources/image/car.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="230">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildSql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/GroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/dao/GroupMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/config/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="92">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -737,50 +1213,118 @@
     <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/barrage-anchor/src/main/java/com/jogeen/barrage/server/data/ServerDataCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="127" column="27" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="127" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/MessageRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/GiftRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/request/RechangeRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="57" column="74" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/resources/static/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="115" column="47" lean-forward="true" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/mina/ProtocolClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="73" column="18" lean-forward="false" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="94">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#2205#2206#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/controller/BarrageController.java">
+    <entry file="file://$PROJECT_DIR$/barrage-core/src/main/java/com/jogeen/barrage/common/GiftEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barrage-web/src/main/java/com/jogeen/barrage/web/service/GroupService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

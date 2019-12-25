@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹幕首页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 上传图片框样式，不使用上传组件可以删除此样式 -->
+    <style>
+        .avatar-uploader .el-upload {
+            border: 1px dashed #d9d9d9;
+            border-radius: 6px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        .avatar-uploader .el-upload:hover {
+            border-color: #409EFF;
+        }
+        .avatar-uploader-icon {
+            font-size: 28px;
+            color: #8c939d;
+            width: 150px;
+            height: 70px;
+            line-height: 150px;
+            text-align: center;
+        }
+        .avatar {
+            width: 150px;
+            height: 70px;
+            display: block;
+        }
+
+    </style>
+    <script src="js/vue.js"></script>
+    <script src="js/axios.js"></script>
+    <script src="js/elementui.js"></script>
+</head>
+<body class="hold-transition">
+<div id="app">
+
+    <div class="content-header">
+        <h1>弹幕<small>弹幕直播</small></h1>
+    </div>
+
+    <div class="app-container">
+        <div class="box">
+            <el-form ref="form" :model="form" label-width="180px" size="medium">
+                <el-form-item v-for="group in info.groupList" :label="group.name+':'+group.leader" :label="15">
+                   <el-progress :percentage="group.percentage"></el-progress> {{group.score}}
+                </el-form-item>
+
+
+                <el-form-item label="答辩中：">
+                    {{info.currentGroup.name}}
+                    <el-button type="primary" @click="refresh()">刷新</el-button>
+                </el-form-item>
+                <el-form-item label="弹幕文字">
+                    <el-input type="textarea" v-model="form.message"></el-input>
+                    <el-button type="primary" @click="sendMessage()">发送</el-button>
+                </el-form-item>
+                <el-form-item label="弹幕礼物">
+
+                    <el-button type="primary" @click="form.type='bicycle';sendGift()">🚴2金币</el-button>
+                    <el-button type="primary" @click="form.type='electric';sendGift()">🛵5金币</el-button>
+                    <el-button type="primary" @click="form.type='bus';sendGift()">🚌10金币</el-button>
+                    <el-button type="primary" @click="form.type='truck';sendGift()">🚚50金币</el-button>
+                    <el-button type="primary" @click="form.type='car';sendGift()">🚗100金币</el-button>
+                    <el-button type="primary" @click="form.type='train';sendGift()">🚄250金币</el-button>
+                    <el-button type="primary" @click="form.type='yacht';sendGift()">🚤500金币</el-button>
+                    <el-button type="primary" @click="form.type='helicopter';sendGift()">🚁1000金币</el-button>
+                    <el-button type="primary" @click="form.type='fighter';sendGift()">✈2000金币</el-button>
+                    <el-button type="primary" @click="form.type='rocket';sendGift()">🚀5000金币</el-button>
+                    <el-button type="primary" @click="form.type='ufo';sendGift()">🛸10000金币</el-button>
+
+                </el-form-item>
+            </el-form>
+
+        </div>
+    </div>
+
+
+</div>
+</body>
+
+<script>
+     var app=new Vue({
+        el: '#app',
+        data:{
+            form: {
+                message: '',
+                type: ''
+            },
+            info:{
+                groupList:[],
+                currentGroup:1,
+            }
+
+        },
+
+        methods:{
+            sendMessage:function() {
+                axios.post("/barrage/message",app.form).then(function (response) {
+                    if('failed'==response.data){
+                        window.location.href="login.html";
+                    }else {
+                        app.$notify({
+                            title: '成功',
+                            message: response.data,
+                            type: 'success'
+                        });
+                    }
+                });
+            },
+            sendGift:function() {
+                axios.post("/barrage/gift",app.form).then(function (response) {
+                    if('failed'==response.data){
+                        window.location.href="login.html";
+                    }else {
+                        app.$notify({
+                            title: '成功',
+                            message: response.data,
+                            type: 'success'
+                        });
+                    }
+                });
+            },
+            refresh:function(){
+                axios.get("/barrage/refresh").then(function (response) {
+                    if('failed'==response.data){
+                        window.location.href="login.html";
+                    }else {
+                        app.info=response.data;
+                    }
+                });
+            }
+        },
+        created:function () {
+            this.refresh();
+        }
+    })
+</script>
+</html>

@@ -5,7 +5,10 @@ import com.jogeen.barrage.common.GiftEnum;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  *  礼物图片加载类
@@ -24,37 +27,23 @@ public class GiftImage {
 		}
 	}
 
-	private static BufferedImage roseImg = null;
-	private static BufferedImage rocketImg = null;
+	private static Map<String,BufferedImage> imgMap=new HashMap();
 
-	public static BufferedImage getRoseImage() {
-		if (roseImg == null) {
-			try {
-				roseImg = ImageIO.read(new FileInputStream(path + "/image/rose.png"));
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		return roseImg;
-	}
-
-	public static BufferedImage getRocketImage() {
-		if (rocketImg == null) {
-			try {
-				rocketImg = ImageIO.read(new FileInputStream(path + "/image/rocket.png"));
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		return rocketImg;
-	}
-	
 	public static BufferedImage getImageByName(String imageName) {
-		if(GiftEnum.ROSE.getType().equals(imageName)) {
-			return getRoseImage();
-		}
-		if(GiftEnum.ROCKET.getType().equals(imageName)) {
-			return getRocketImage();
+		BufferedImage bufferedImage = imgMap.get(imageName);
+		if(bufferedImage!=null){
+			return bufferedImage;
+		}else{
+			GiftEnum giftEnum = GiftEnum.getGiftByType(imageName);
+			if(giftEnum!=null){
+				try {
+					BufferedImage image = ImageIO.read(new FileInputStream(path + "/image/"+giftEnum.getType()+".png"));
+					imgMap.put(imageName,image);
+					return image;
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
 		}
 		return null;
 	}
