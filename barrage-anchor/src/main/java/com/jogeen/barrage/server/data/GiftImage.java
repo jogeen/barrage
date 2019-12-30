@@ -1,6 +1,7 @@
 package com.jogeen.barrage.server.data;
 
 import com.jogeen.barrage.common.GiftEnum;
+import com.jogeen.barrage.server.ServerMain;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -21,7 +22,8 @@ public class GiftImage {
 
 	static {
 		try {
-			path = java.net.URLDecoder.decode(GiftImage.class.getResource("/").getPath(),"utf-8");
+			path = java.net.URLDecoder.decode(ServerMain.class.getResource("/").getPath(),"utf-8");
+			System.out.println(path);
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}

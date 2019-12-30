@@ -18,9 +18,11 @@
             position: relative;
             overflow: hidden;
         }
+
         .avatar-uploader .el-upload:hover {
             border-color: #409EFF;
         }
+
         .avatar-uploader-icon {
             font-size: 28px;
             color: #8c939d;
@@ -29,6 +31,7 @@
             line-height: 150px;
             text-align: center;
         }
+
         .avatar {
             width: 150px;
             height: 70px;
@@ -49,25 +52,84 @@
 
     <div class="app-container">
         <div class="box">
-            <el-form ref="form" :model="form" label-width="180px" size="medium">
+            <el-tabs type="border-card">
+                <el-tab-pane>
+                    <span slot="label">主机链接</span>
+                    <el-form ref="form" :model="form" label-width="120px" size="medium">
 
-                <el-form-item label="连接主播电脑">
-                    主机IP:<el-input type="text" v-model="form.ip"></el-input>
-                    端口Port：<el-input type="text" v-model="form.port"></el-input>
-                    组号：<el-input type="text" v-model="form.groupid"></el-input>
-                    <el-button type="primary" @click="conn()">连接</el-button><el-button type="primary" @click="test()">测试弹幕</el-button>
-                </el-form-item>
+                        <el-form-item label=" 主机IP:">
+                            <el-input type="text" v-model="form.ip"></el-input>
+                        </el-form-item>
+                        <el-form-item label=" 端口Port:">
+                            <el-input type="text" v-model="form.port"></el-input>
+                        </el-form-item>
+                        <el-form-item label="链接组号:">
+                            <el-input type="text" v-model="form.groupid"></el-input>
+                        </el-form-item>
 
-            </el-form>
+                        <el-button type="primary" @click="conn()">连接</el-button>
+                        <el-button type="primary" @click="test()">测试弹幕</el-button>
+                        </el-form-item>
 
-            <el-form ref="rechargeForm" :model="rechargeForm" label-width="180px" size="medium" label="充值金币">
-                <el-form-item label="用户充值">
-                    电话号码:<el-input type="text" v-model="rechargeForm.phone"></el-input>
-                    金币数：<el-input type="text" v-model="rechargeForm.value"></el-input>
-                    <el-button type="primary" @click="recharge()">充值</el-button>
-                </el-form-item>
-            </el-form>
+                    </el-form>
+                </el-tab-pane>
+                <el-tab-pane label="用户充值">
+                    <el-form ref="rechargeForm" :model="rechargeForm" label-width="120px" size="medium" label="充值金币">
+                        <el-form-item label="电话号码:">
+                            <el-input type="text" v-model="rechargeForm.phone"></el-input>
+                        </el-form-item>
+                        <el-form-item label="金币数：">
+                            <el-input type="text" v-model="rechargeForm.value"></el-input>
+                        </el-form-item>
+                        <el-button type="primary" @click="recharge()">充值</el-button>
+                        </el-form-item>
+                    </el-form>
+                </el-tab-pane>
+                <el-tab-pane label="题目发布">
+                    <el-form ref="question" :model="question" label-width="120px" size="medium">
+                        <el-form-item label="题目">
+                            <el-input v-model="question.title"></el-input>
+                        </el-form-item>
+                        <el-form-item label="选项A">
+                            <el-input v-model="question.optionA"></el-input>
+                        </el-form-item>
+                        <el-form-item label="选项B">
+                            <el-input v-model="question.optionB"></el-input>
+                        </el-form-item>
+                        <el-form-item label="选项C">
+                            <el-input v-model="question.optionC"></el-input>
+                        </el-form-item>
+                        <el-form-item label="选项D">
+                            <el-input v-model="question.optionD"></el-input>
+                        </el-form-item>
+
+                        <el-form-item label="正确答案">
+                            <el-input v-model="question.answer"></el-input>
+                        </el-form-item>
+                        <el-form-item label="答案解析">
+                            <el-input type="textarea" v-model="question.analysis"></el-input>
+                        </el-form-item>
+
+
+                        <el-form-item label="时间限制(秒)">
+                            <el-input v-model="question.timeLimit"></el-input>
+                        </el-form-item>
+
+                        <el-form-item label="分值">
+                            <el-input v-model="question.score"></el-input>
+                        </el-form-item>
+
+
+                        <el-form-item>
+                            <el-button type="primary" @click="publish">立即发布</el-button>
+                        </el-form-item>
+                    </el-form>
+                </el-tab-pane>
+
+            </el-tabs>
+
         </div>
+
     </div>
 
 
@@ -75,47 +137,101 @@
 </body>
 
 <script>
-     var app=new Vue({
+    var app = new Vue({
         el: '#app',
-        data:{
+        data: {
             form: {
-                ip:'127.0.0.1',
+                ip: '127.0.0.1',
                 port: 5233,
-                groupid:1
+                groupid: 1
 
             },
             rechargeForm: {
-                phone:'',
+                phone: '',
                 value: 100
+            },
+            question: {
+                title: 'test',
+                optionA: 'test',
+                optionB: 'test',
+                optionC: 'test',
+                optionD: 'test',
+                answer: 'A',
+                analysis: 'test',
+                timeLimit: 60,
+                score: 100
             }
         },
 
-        methods:{
-            conn:function() {
-                axios.get("/admin/conn/"+app.form.ip+"/"+app.form.port+"/"+app.form.groupid).then(function (response) {
-                    app.$notify({
-                        title: '成功',
-                        message: response.data,
-                        type: 'success'
-                    });
+        methods: {
+            conn: function () {
+                axios.get("/admin/conn/" + app.form.ip + "/" + app.form.port + "/" + app.form.groupid).then(function (response) {
+                    if (response.data.code == 200) {
+                        app.$notify({
+                            title: '成功',
+                            message: response.data.message,
+                            type: 'success'
+                        });
+                    } else {
+                        app.$notify({
+                            title: '失败',
+                            message: response.data.message,
+                            type: 'warning'
+                        });
+                    }
+
                 });
             },
-            test:function() {
+            test: function () {
                 axios.get("/admin/test").then(function (response) {
-                    app.$notify({
-                        title: '成功',
-                        message: response.data,
-                        type: 'success'
-                    });
+                    if (response.data.code == 200) {
+                        app.$notify({
+                            title: '成功',
+                            message: response.data.message,
+                            type: 'success'
+                        });
+                    } else {
+                        app.$notify({
+                            title: '失败',
+                            message: response.data.message,
+                            type: 'warning'
+                        });
+                    }
                 });
             },
-            recharge:function() {
-                axios.post("/admin/recharge",app.rechargeForm).then(function (response) {
-                    app.$notify({
-                        title: '成功',
-                        message: response.data,
-                        type: 'success'
-                    });
+            recharge: function () {
+                axios.post("/admin/recharge", app.rechargeForm).then(function (response) {
+                    if (response.data.code == 200) {
+                        app.$notify({
+                            title: '成功',
+                            message: response.data.message,
+                            type: 'success'
+                        });
+                    } else {
+                        app.$notify({
+                            title: '失败',
+                            message: response.data.message,
+                            type: 'warning'
+                        });
+                    }
+                });
+            },
+
+            publish: function () {
+                axios.post("/admin/publish", app.question).then(function (response) {
+                    if (response.data.code == 200) {
+                        app.$notify({
+                            title: '成功',
+                            message: response.data.message,
+                            type: 'success'
+                        });
+                    } else {
+                        app.$notify({
+                            title: '失败',
+                            message: response.data.message,
+                            type: 'error'
+                        });
+                    }
                 });
             }
         }

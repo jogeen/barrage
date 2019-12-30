@@ -32,7 +32,7 @@ public class UserController {
             setUserToSession(ruser);
             Object o = redisTemplate.opsForValue().get(ruser.getPhone());
             if (o == null) {
-                redisTemplate.opsForValue().set(ruser.getPhone(), 10000L);
+                redisTemplate.opsForValue().set(ruser.getPhone(), 8000L);
             }
             return "success";
         }

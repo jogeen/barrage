@@ -42,14 +42,40 @@
 </head>
 <body class="hold-transition">
 <div id="app">
-
+<!--
+    //
+    //                       _oo0oo_
+    //                      o8888888o
+    //                      88" . "88
+    //                      (| -_- |)
+    //                      0\  =  /0
+    //                    ___/`---'\___
+    //                  .' \\|     |// '.
+    //                 / \\|||  :  |||// \
+    //                / _||||| -:- |||||- \
+    //               |   | \\\  -  /// |   |
+    //               | \_|  ''\---/''  |_/ |
+    //               \  .-\__  '-'  ___/-. /
+    //             ___'. .'  /--.--\  `. .'___
+    //          ."" '<  `.___\_<|>_/___.' >' "".
+    //         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+    //         \  \ `_.   \_ __\ /__ _/   .-` /  /
+    //     =====`-.____`.___ \_____/___.-`___.-'=====
+    //                       `=---='
+    //
+    //
+    //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    //
+    //               佛祖保佑         永无BUG
+    //
+-->
     <div class="content-header">
         <h1>弹幕<small>弹幕直播</small></h1>
     </div>
 
     <div class="app-container">
         <div class="box">
-            <el-form ref="form" :model="form" label-width="180px" size="medium">
+            <el-form ref="form" :model="form" label-width="120px" size="medium">
                 <el-form-item v-for="group in info.groupList" :label="group.name+':'+group.leader" :label="15">
                    <el-progress :percentage="group.percentage"></el-progress> {{group.score}}
                 </el-form-item>
@@ -64,7 +90,7 @@
                     <el-button type="primary" @click="sendMessage()">发送</el-button>
                 </el-form-item>
                 <el-form-item label="弹幕礼物">
-
+                    <el-tag >剩余金币数{{info.score}}</el-tag>
                     <el-button type="primary" @click="form.type='bicycle';sendGift()">🚴2金币</el-button>
                     <el-button type="primary" @click="form.type='electric';sendGift()">🛵5金币</el-button>
                     <el-button type="primary" @click="form.type='bus';sendGift()">🚌10金币</el-button>
@@ -79,7 +105,36 @@
 
                 </el-form-item>
             </el-form>
+        </div>
+        <div class="box">
+            <el-button type="primary" @click="getQuestion();selectedOption={}">获取题目</el-button>
+            <el-form ref="question" :model="question" label-width="120px" size="medium" v-if="questionStatus!=1">
+                <el-tag type="success">价值{{question.score}}金币</el-tag>
+                <el-tag type="danger">时间限制{{question.timeLimit}}秒</el-tag>
+                <el-form-item label="题目">
+                    <el-input v-model="question.title"></el-input>
+                </el-form-item>
+                <el-form-item label="答案选项">
+                    <el-radio-group v-model="selectedOption.answerOption">
+                        <el-radio label="A">{{question.optionA}}</el-radio>
+                        <el-radio label="B">{{question.optionB}}</el-radio>
+                        <el-radio label="C">{{question.optionC}}</el-radio>
+                        <el-radio label="D">{{question.optionD}}</el-radio>
 
+                    </el-radio-group>
+                </el-form-item>
+
+                <el-form-item label="正确答案" v-if="Object.keys(question.answer).length!=0">
+                    <el-tag type="success">{{question.answer}}</el-tag>
+                </el-form-item>
+                <el-form-item label="答案解析" v-if="Object.keys(question.analysis).length!=0">
+                    <el-input type="textarea" v-model="question.analysis"></el-input>
+                </el-form-item>
+
+                <el-form-item>
+                    <el-button type="primary" @click="submitAnswer">提交答案</el-button>
+                </el-form-item>
+            </el-form>
         </div>
     </div>
 
@@ -98,7 +153,23 @@
             info:{
                 groupList:[],
                 currentGroup:1,
-            }
+                score:0,
+            },
+            question: {
+                title: 'test',
+                optionA: 'test',
+                optionB: 'test',
+                optionC: 'test',
+                optionD: 'test',
+                answer: 'A',
+                analysis: 'test',
+                timeLimit: 60,
+                score: 100
+            },
+            selectedOption:{
+                answerOption:''
+            },
+            questionStatus:1
 
         },
 
@@ -108,12 +179,23 @@
                     if('failed'==response.data){
                         window.location.href="login.html";
                     }else {
-                        app.$notify({
-                            title: '成功',
-                            message: response.data,
-                            type: 'success'
-                        });
+                        if (response.data.code == 200) {
+                            app.$notify({
+                                title: '成功',
+                                message: response.data.message,
+                                type: 'success'
+                            });
+                        } else if(response.data.code == 300) {
+                            alert(response.data.message);
+                        }else{
+                            app.$notify({
+                                title: '失败',
+                                message: response.data.message,
+                                type: 'warning'
+                            });
+                        }
                     }
+
                 });
             },
             sendGift:function() {
@@ -137,11 +219,84 @@
                         app.info=response.data;
                     }
                 });
+            },
+
+            getQuestion:function(){
+                axios.get("/barrage/question").then(function (response) {
+                    if (response.data.code == 200) {
+                        app.questionStatus=2;
+                        app.question = response.data.data
+                        app.$notify({
+                            title: '成功',
+                            message: response.data.message,
+                            type: 'success'
+                        });
+                    } else {
+                        app.questionStatus=1;
+                        app.$notify({
+                            title: '失败',
+                            message: response.data.message,
+                            type: 'warning'
+                        });
+                    }
+                });
+            },
+            submitAnswer:function(){
+                axios.post("/barrage/answer",app.selectedOption).then(function (response) {
+                    if (response.data.code == 200) {
+                        app.question = response.data.data
+                        app.refresh();
+                        app.$notify({
+                            title: '成功',
+                            message: response.data.message,
+                            type: 'success'
+                        });
+                    } else if(response.data.code == 300) {
+                        alert(response.data.message);
+                    }else {
+                        app.$notify({
+                            title: '失败',
+                            message: response.data.message,
+                            type: 'warning'
+                        });
+                    }
+                });
             }
+
         },
         created:function () {
             this.refresh();
         }
     })
 </script>
+<!--
+#                  Codes are far away from bugs with the animal protecting
+#
+#      ,----------------,              ,---------,
+#         ,-----------------------,          ,"        ,"|
+#       ,"                      ,"|        ,"        ,"  |
+#      +-----------------------+  |      ,"        ,"    |
+#      |  .-----------------.  |  |     +---------+      |
+#      |  |                 |  |  |     | -==----'|      |
+#      |  |  I LOVE DOS!    |  |  |     |         |      |
+#      |  |  Bad command or |  |  |/----|`---=    |      |
+#      |  |  C:\>JOGEENHELP |  |  |   ,/|==== ooo |      ;
+#      |  |                 |  |  |  // |(((( [33]|    ,"
+#      |  `-----------------'  |," .;'| |((((     |  ,"
+#      +-----------------------+  ;;  | |         |,"
+#         /_)______________(_/  //'   | +---------+
+#    ___________________________/___  `,
+#   /  oooooooooooooooo  .o.  oooo /,   \,"-----------
+#  / ==ooooooooooooooo==.o.  ooo= //   ,`\--{)B     ,"
+# /_==__==========__==_ooo__ooo=_/'   /___________,"
+#
+#                 .-~~~~~~~~~-._       _.-~~~~~~~~~-.
+#             __.'              ~.   .~              `.__
+#           .'//                  \./                  \\`.
+#         .'//                     |                     \\`.
+#       .'// .-~"""""""~~~~-._     |     _,-~~~~"""""""~-. \\`.
+#     .'//.-"                 `-.  |  .-'                 "-.\\`.
+#   .'//______.============-..   \ | /   ..-============.______\\`.
+# .'______________________________\|/______________________________`.
+-->
 </html>
