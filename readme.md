@@ -4,7 +4,7 @@
 
 ### 系统架构
 
-![1577771973727](images\架构.png)
+![1577771973727](https://github.com/jogeen/barrage/blob/master/images/架构.png)
 
 ### 工程结构
 
