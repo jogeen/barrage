@@ -1,6 +1,5 @@
 ##  局域答辩网弹幕系统3.0
 
-[TOC]
 
 ### 系统架构
 
@@ -40,13 +39,14 @@
 3. 导入barrage.sql
 4. 管理员启动barrage-web
 5. 管理员访问localhost:8080/admin.html
-6. ![1577771913040](images\admin.png)
+6. ![1577771913040](https://github.com/jogeen/barrage/blob/master/images/admin.png)
 
 7.用后访问  管理员IP:8080/login.html登录
 
-![1577772265796](images\login.png)8.登录成功之后的主页。
-![](images\index.png)
+![1577772265796](https://github.com/jogeen/barrage/blob/master/images/login.png)
+8.登录成功之后的主页。
+![](https://github.com/jogeen/barrage/blob/master/images/index.png)
 
 9.发送弹幕
 
-![1577772372945](images\barrage.png)
+![1577772372945](https://github.com/jogeen/barrage/blob/master/images/barrage.png)
