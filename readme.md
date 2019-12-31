@@ -7,12 +7,11 @@
 
 ### 工程结构
 
-|barrage
-
-​	|barrage-anchor   #弹幕展示端(主播端)
-​	|barrage-core      #核心包
-​	|barrage-web     #web端，普通用户发弹幕，和管理员系统管理
-​	|barrage.sql      #初始sql文件
+-barrage
+--barrage-anchor   #弹幕展示端(主播端)
+--barrage-core      #核心包
+--barrage-web     #web端，普通用户发弹幕，和管理员系统管理
+--barrage.sql      #初始sql文件
 
 ### 功能模块
 
