@@ -86,8 +86,7 @@
                 <el-tab-pane label="high弹幕">
                     <el-form ref="form" :model="form" label-width="120px" size="medium">
                         <el-form-item label="答辩中：" v-if="info.currentGroup">
-                            {{info.currentGroup.name}}
-                            <el-button type="primary" @click="refresh()">刷新</el-button>
+                            {{info.currentGroup.name}} |  {{info.currentGroupScore}}
                         </el-form-item>
                         <el-form-item label="弹幕文字">
                             <el-input type="textarea" v-model="form.message"></el-input>
@@ -111,6 +110,7 @@
                     </el-form>
                 </el-tab-pane>
                 <el-tab-pane label="礼物排行榜">
+                    <el-button type="primary" @click="rank()">刷新排行榜</el-button>
                     <div  v-for="(group,index) in groupList" :key="index" style="margin-bottom: 15px;">
                         <i>NO{{index+1}}.</i> {{group.name}} | {{group.leader}} | {{group.score}}
                         <el-progress :percentage="group.percentage"></el-progress>
@@ -166,6 +166,7 @@
             info: {
                 currentGroup: 1,
                 score: 0,
+                currentGroupScore:0
             },
             groupList: [],
             question: {
@@ -289,9 +290,10 @@
         },
         created: function () {
             this.refresh();
+            this.rank();
         },
         mounted: function () {
-            this.timer = setInterval(this.rank, 1000);
+            this.timer = setInterval(this.refresh, 1000);
         },
         beforeDestroy: function () {
             clearInterval(this.timer);

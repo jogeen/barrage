@@ -3,6 +3,7 @@ package com.jogeen.barrage.web.controller;
 import com.google.gson.Gson;
 import com.jogeen.barrage.common.MessageFactory;
 import com.jogeen.barrage.web.config.CurrentStatus;
+import com.jogeen.barrage.web.config.RedisKey;
 import com.jogeen.barrage.web.mina.ProtocolClient;
 import com.jogeen.barrage.web.model.Group;
 import com.jogeen.barrage.web.model.User;
@@ -20,6 +21,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @RestController
 @RequestMapping("/admin")
@@ -48,7 +50,7 @@ public class AdminController {
         } catch (Exception e) {
             return Result.BuildFailedResult("连接失败");
         }
-        redisTemplate.boundHashOps("group_info").put(group.getId(), group);
+        redisTemplate.boundHashOps(RedisKey.GROUP_INFO).put(group.getId(), group);
         CurrentStatus.CURRENT_GROUP = group;
         return new Result("连接成功");
     }
@@ -68,8 +70,9 @@ public class AdminController {
 
 
     @GetMapping("/test")
-    public String test() {
-        return protocolClient.sendData(MessageFactory.createTextMessage("管理员服务器连接测试", "system"));
+    public Result test() {
+        String s = protocolClient.sendData(MessageFactory.createTextMessage("管理员服务器连接测试", "system"));
+        return new Result(s);
     }
 
 
@@ -81,8 +84,8 @@ public class AdminController {
         CurrentStatus.CURRENT_QUESTION_ID = UUID.randomUUID().toString();
         question.setId(CurrentStatus.CURRENT_QUESTION_ID);
         CurrentStatus.CURRENT_QUESTION = question;
-        redisTemplate.boundValueOps("Current_Question_" + CurrentStatus.CURRENT_QUESTION_ID).set(new Gson().toJson(CurrentStatus.CURRENT_QUESTION), question.getTimeLimit(), TimeUnit.SECONDS);
-        redisTemplate.boundListOps("History_Question").rightPush(new Gson().toJson(CurrentStatus.CURRENT_QUESTION));
+        redisTemplate.boundValueOps(RedisKey.CURRENT_QUESTION + CurrentStatus.CURRENT_QUESTION_ID).set(new Gson().toJson(CurrentStatus.CURRENT_QUESTION), question.getTimeLimit(), TimeUnit.SECONDS);
+        redisTemplate.boundListOps(RedisKey.HISTORY_QUESTION).rightPush(new Gson().toJson(CurrentStatus.CURRENT_QUESTION));
         return new Result("发布成功");
 
     }

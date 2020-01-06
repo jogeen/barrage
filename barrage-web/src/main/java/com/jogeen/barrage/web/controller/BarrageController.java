@@ -7,6 +7,7 @@ import com.jogeen.barrage.common.GiftEnum;
 import com.jogeen.barrage.common.Message;
 import com.jogeen.barrage.common.MessageFactory;
 import com.jogeen.barrage.web.config.CurrentStatus;
+import com.jogeen.barrage.web.config.RedisKey;
 import com.jogeen.barrage.web.mina.ProtocolClient;
 import com.jogeen.barrage.web.model.Group;
 import com.jogeen.barrage.web.model.User;
@@ -39,17 +40,17 @@ public class BarrageController {
     @Autowired
     private ProtocolClient protocolClient;
 
-    RateLimiter rateLimiter_level1 = RateLimiter.create(200);
+/*    RateLimiter rateLimiter_level1 = RateLimiter.create(200);
 
-    RateLimiter rateLimiter_level2 = RateLimiter.create(300);
+    RateLimiter rateLimiter_level2 = RateLimiter.create(300);*/
 
     @PostMapping("/message")
     public Result sendMessage(@RequestBody MessageRequest messageRequest) {
         String message = messageRequest.getMessage();
-        if("JOGEENHELP".equals(message)){
+/*        if("JOGEENHELP".equals(message)){
             return new Result(300,"恭喜你，发现彩蛋入口，想办法请求所有你能看到的接口吧！看看接口是否有bug或者惊喜！",null);
-        }
-        Message textMessage = MessageFactory.createTextMessage(messageRequest.getMessage(), getUserFronSession().getUsername());
+        }*/
+        Message textMessage = MessageFactory.createTextMessage(message, getUserFronSession().getUsername());
         String result = protocolClient.sendData(textMessage);
         return new Result(result);
     }
@@ -72,7 +73,7 @@ public class BarrageController {
         }
 
         if (CurrentStatus.CURRENT_GROUP != null) {
-            setIncrementHashValue("group_value",""+ CurrentStatus.CURRENT_GROUP.getId(), gitf.getValue());
+            setIncrementHashValue(RedisKey.GROUP_VALUE,""+ CurrentStatus.CURRENT_GROUP.getId(), gitf.getValue());
         }
 
         Message giftMessage = MessageFactory.createGiftMessage(gitf, getUserFronSession().getUsername());
@@ -85,20 +86,22 @@ public class BarrageController {
         result.put("currentGroup", CurrentStatus.CURRENT_GROUP);
         String value = (String) redisTemplate.boundValueOps(getUserFronSession().getPhone()).get();
         result.put("score",Long.parseLong(value));
+        result.put("currentGroupScore",getRedisHashValue(RedisKey.GROUP_VALUE,CurrentStatus.CURRENT_GROUP.getId()+""));
+
         return result;
     }
 
 
     @GetMapping("/rank")
     public List list() {
-        Set<String> keys = hashKeys("group_value");
-        List<Group> group_info = redisTemplate.boundHashOps("group_info").values();
+        Set<String> keys = hashKeys(RedisKey.GROUP_VALUE);
+        List<Group> group_info = redisTemplate.boundHashOps(RedisKey.GROUP_INFO).values();
         List<GroupVo> groupVoList=new ArrayList<>();
         for (int i = 0; i < group_info.size(); i++) {
             Group group = group_info.get(i);
             GroupVo groupVo=new GroupVo();
             BeanUtils.copyProperties(group,groupVo);
-            groupVo.setScore(getRedisHashValue("group_value",""+group.getId()));
+            groupVo.setScore(getRedisHashValue(RedisKey.GROUP_VALUE,""+group.getId()));
             groupVoList.add(groupVo);
         }
         Collections.sort(groupVoList, new Comparator<GroupVo>() {
@@ -137,13 +140,13 @@ public class BarrageController {
         if (StringUtils.isEmpty(answer.getAnswerOption())) {
             return Result.BuildFailedResult("请选择答案");
         }
-        String questionStr = (String) redisTemplate.boundValueOps("Current_Question_" + CurrentStatus.CURRENT_QUESTION_ID).get();
+        String questionStr = (String) redisTemplate.boundValueOps(RedisKey.CURRENT_QUESTION + CurrentStatus.CURRENT_QUESTION_ID).get();
         if (questionStr == null) {
             CurrentStatus.CURRENT_QUESTION_ID = null;
             return Result.BuildFailedResult("本次答题已结束！");
         }
         Question question = new Gson().fromJson(questionStr, Question.class);
-        if(checkEgg(answer.getAnswerOption())){
+/*        if(checkEgg(answer.getAnswerOption())){
             if(redisTemplate.opsForSet().isMember("Egg01",getUserFronSession().getPhone())){
                 return new Result("继续寻找第二彩蛋吧！");
             }
@@ -151,7 +154,7 @@ public class BarrageController {
             redisTemplate.opsForSet().add("Answer_List_"+question.getId(),getUserFronSession().getPhone());
             Long increment = redisTemplate.boundValueOps(getUserFronSession().getPhone()).increment(10000L);
             return new Result(300,"恭喜你发现第一个彩蛋，你没有拘泥于前端界面，尝试了模拟请求并且修改了参数，送你10000金币作为奖励。大彩蛋就在/barrage/egg接口！加油吧",null);
-        }
+        }*/
         if(redisTemplate.opsForSet().isMember("Answer_List_"+question.getId(),getUserFronSession().getPhone())){
             return Result.BuildFailedResult("本次已经作答！");
         }
@@ -165,7 +168,7 @@ public class BarrageController {
 
     }
 
-    @GetMapping("/egg")
+/*    @GetMapping("/egg")
     public  Result egg(){
         if(CurrentStatus.isEgg){
             return Result.BuildFailedResult("彩蛋已经被人拿走了！");
@@ -188,7 +191,7 @@ public class BarrageController {
                 }
             }
         }
-    }
+    }*/
 
 
 
