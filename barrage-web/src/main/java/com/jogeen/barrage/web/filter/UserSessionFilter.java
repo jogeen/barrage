@@ -12,7 +12,7 @@ import java.io.IOException;
 
 @Order(1)
 @WebFilter(urlPatterns = "/barrage/*",filterName = "sessionFilter")
-public class SessionFilter implements Filter {
+public class UserSessionFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {

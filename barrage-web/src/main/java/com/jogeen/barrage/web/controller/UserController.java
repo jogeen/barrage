@@ -3,6 +3,7 @@ package com.jogeen.barrage.web.controller;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.google.gson.Gson;
 import com.jogeen.barrage.web.model.User;
+import com.jogeen.barrage.web.response.Result;
 import com.jogeen.barrage.web.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -26,7 +27,7 @@ public class UserController {
 
 
     @PostMapping("/login")
-    public String login(@RequestBody User user) {
+    public Result login(@RequestBody User user) {
         User ruser = userService.getUserByPhone(user.getPhone());
         if (ruser.getPassword().equals(user.getPassword())) {
             setUserToSession(ruser);
@@ -34,9 +35,10 @@ public class UserController {
             if (o == null) {
                 redisTemplate.opsForValue().set(ruser.getPhone(), 8000L);
             }
-            return "success";
+
+            return new Result("登录成功",ruser.getType());
         }
-        return "failed";
+        return Result.BuildFailedResult("用户名或密码错误");
     }
 
 

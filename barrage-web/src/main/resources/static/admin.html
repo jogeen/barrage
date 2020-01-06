@@ -47,7 +47,7 @@
 <div id="app">
 
     <div class="content-header">
-        <h1>弹幕管理</h1>
+        <h1>弹幕管理   <el-button type="primary" @click="barrage()" class="pull-right">发送弹幕</el-button></h1>
     </div>
 
     <div class="app-container">
@@ -233,6 +233,9 @@
                         });
                     }
                 });
+            },
+            barrage:function () {
+                window.location.href = "index.html";
             }
         }
 

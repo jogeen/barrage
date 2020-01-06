@@ -82,8 +82,6 @@ public class BarrageController {
     @GetMapping("/refresh")
     public Map refresh() {
         Map result=new HashMap();
-        List list = list();
-        result.put("groupList",list);
         result.put("currentGroup", CurrentStatus.CURRENT_GROUP);
         String value = (String) redisTemplate.boundValueOps(getUserFronSession().getPhone()).get();
         result.put("score",Long.parseLong(value));

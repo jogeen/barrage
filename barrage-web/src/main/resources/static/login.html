@@ -14,11 +14,11 @@
 </head>
 
 <body class="mainBg">
-    <div id="app">
-	<form class="loginForm clear">
+<div id="app">
+    <form class="loginForm clear">
         <div class="loginMain">
             -------------------------------------------------弹幕系统---------------------------------------------------
-          <div class="loginCon">
+            <div class="loginCon">
             
               <span class="el-form-item">
                 <span class="userIcon"></span>
@@ -26,50 +26,56 @@
                   <input v-model="user.phone" class="el-input__inner" name="username" placeholder="电话号码"/>
                 </span>
               </span>
-              <span class="el-form-item">
+                <span class="el-form-item">
                 <span class="pwdIcon"></span>
                 <span class="el-input">
-                  <input v-model="user.password" class="el-input__inner" name="password"  placeholder="密码"/>
+                  <input v-model="user.password" type="password" class="el-input__inner" name="password" placeholder="密码"/>
                 </span>
                 
               </span>
-      
-          </div>
-   
-          <div class="loginBtn">            
-              <input type="button" class="el-button el-button--primary" value="登录" @click="login()">
+
+            </div>
+
+            <div class="loginBtn">
+                <input type="button" class="el-button el-button--primary" value="登录" @click="login()">
             </div>
         </div>
-	</form>
-            
-    </div>
+    </form>
+
+</div>
 </body>
 
 <script>
     window.onload = windowHeight; //页面载入完毕执行函数
     function windowHeight() {
-        var asieHeight=document.getElementById("app")
-        asieHeight.style.height=document.documentElement.clientHeight + 'px'
-    } 
+        var asieHeight = document.getElementById("app")
+        asieHeight.style.height = document.documentElement.clientHeight + 'px'
+    }
 </script>
 <script src="js/vue.js"></script>
 <script src="js/axios.js"></script>
 <script src="js/elementui.js"></script>
 <script>
-    var app=new Vue({
+    var app = new Vue({
         el: '#app',
-        data:{
-            user:{
-                phone:"",
+        data: {
+            user: {
+                phone: "",
                 passord: ""
             }
         },
-        methods:{
-            login:function (){
-                axios.post("/user/login",app.user).then(function (response) {
-                    if('success'==response.data){
-                        window.location.href="index.html";
-                    }else {
+        methods: {
+            login: function () {
+                axios.post("/user/login", app.user).then(function (response) {
+                    if (200 == response.data.code) {
+                        if ('user' == response.data.data) {
+                            window.location.href = "index.html";
+                        } else if ('admin' == response.data.data) {
+                            window.location.href = "admin.html";
+                        } else {
+                            alert("无效角色请联系管理员");
+                        }
+                    } else {
                         alert("用户名密码错误");
                     }
                 });
