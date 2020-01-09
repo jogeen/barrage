@@ -18,4 +18,8 @@ public class UserService {
     public User getUserByPhone(String phone) {
         return userMapper.getUserByPhone(phone);
     }
+
+    public User getUserById(Integer uid) {
+        return userMapper.selectByPrimaryKey(uid);
+    }
 }
